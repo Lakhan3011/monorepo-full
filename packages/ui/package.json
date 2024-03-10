@@ -6,10 +6,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
-    "generate:component": "turbo gen react-component",
-    "start:backend": "node apps/express-backend/dist/index.js",
-    "start:next": "cd packages/client-next && yarn start",
-    "start:react": "cd packgaes/client-react/dist && serve -p 3001"
+    "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
